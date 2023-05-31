@@ -18,9 +18,9 @@ body{
       }
       .topo-menu .info-menu{
         display: flex;
-        padding: 16px;
+        padding: 14px;
         margin-left: 35px;
-        font-size: 13px;
+        font-size: 12px;
         color: #fff;
       }
       .topo-menu .info-menu p{
@@ -35,12 +35,6 @@ body{
       }
       .topo-menu .info-menu span{
         margin-left: 8px;
-      }
-      .topo-menu .info-menu
-      p
-      a:hover, 
-      span:hover{
-        font-weight: bold;
       }
       @media(max-width: 830px){
         .topo-menu .info-menu{
@@ -57,9 +51,9 @@ body{
       .head-menu{
         position: fixed;
         left: 0; right: 0;
-        background: #000321;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-        padding: 10px 6%;
+        background: #fff;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
+        padding: 6px 6%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -81,29 +75,99 @@ body{
         text-transform: uppercase;
         font-family: calibri;
         padding: 20px 18px;
-        color: #fff;
+        color: #000000;
         display: block;
+        transition: 0.4s;
       }
       .head-menu .navbar ul li a:hover{
-        background: #fff;
-        color: #000;
+        color: rgba(0, 0, 0, .5);
       }
       .head-menu .navbar ul li ul{
         position: absolute;
         left: 0;
-        width: 200px;
-        background: #000321;
-        color: #fff;
+        width: 225px;
+        background: #fff;
+        color: #000000;
         display: none;
+      }
+      .head-menu .navbar img{
+        margin-left: 4px;
       }
       .head-menu .navbar ul li ul li{
         width: 100%;
-        border: 1px solid rgba(0, 0, 0, .1);
+        transition: 0.4s;
       }
       .head-menu .navbar ul li:hover > ul {
         display: initial;
+        animation: slide-down 0.5s ease-in-out;
+      }
+      .head-menu .navbar ul li ul li a:hover{
+        color: #0368ec;
       }
 
+      @keyframes slide-down {
+        0% {
+          transform: translateY(-10px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      #menu-bar{
+        display: none;
+      }
+      .head-menu label{
+        cursor: pointer;
+        display: none;
+      }
+      
+
+      @media(max-width: 830px){
+        .head-menu{
+          padding: 18px;
+        }
+        .head-menu label{
+          display: initial;
+        }
+        .head-menu .navbar{
+          position: absolute;
+          top:100%; left:0; right: 0;
+          background: #fff;
+          border-top: 1px solid rgba(0, 0, 0, .1);
+          display: none;
+        }
+        .head-menu .navbar ul li{
+          width: 100%;
+        }
+        .head-menu .navbar ul li ul{
+          position: relative;
+          width: 100%;
+        }
+        .head-menu .navbar ul li ul li{
+          background: #eee;
+        }
+        .head-menu .navbar ul li ul li ul{
+          width: 100%;
+          left: 0;
+        }
+        #menu-bar:checked ~ .navbar{
+          display: initial;
+          animation: slide-down 0.5s ease-in-out;
+        }
+        @keyframes slide-down {
+          0% {
+            transform: translateY(-10px);
+            opacity: 0;
+          }
+          100% {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+      }
    /* OFF MENU DROPDOWM */
 
 /* OFF CABEÇALHO DO SITE */
