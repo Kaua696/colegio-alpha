@@ -15,10 +15,6 @@ body{
       .topo-menu{
         width: 100%;
         background:  #004aad;
-        transition: opacity 0.5s ease-in-out;
-      }
-      .topo-menu.invisivel{
-        opacity: 0;
       }
       .topo-menu .info-menu{
         display: flex;
@@ -51,10 +47,63 @@ body{
             display: flex;
             padding: 12px;
             margin-left: 6px;
-            font-size: 12px;
+            font-size: 11px;
             color: #fff;
-          }
+        }
       }
    /* INFORMAÇÕES DE AJUDA */
+    
+   /* MENU DROPDOWM */
+      .head-menu{
+        position: fixed;
+        left: 0; right: 0;
+        background: #000321;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+        padding: 10px 6%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        transition: top 0.2s;
+      }
+      .head-menu .logo{
+        width: 175px;
+      }
+      .head-menu .navbar ul{
+        list-style: none;
+      }
+      .head-menu .navbar ul li{
+        position: relative;
+        float: left;
+      }
+      .head-menu .navbar ul li a{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: calibri;
+        padding: 20px 18px;
+        color: #fff;
+        display: block;
+      }
+      .head-menu .navbar ul li a:hover{
+        background: #fff;
+        color: #000;
+      }
+      .head-menu .navbar ul li ul{
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background: #000321;
+        color: #fff;
+        display: none;
+      }
+      .head-menu .navbar ul li ul li{
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, .1);
+      }
+      .head-menu .navbar ul li:hover > ul {
+        display: initial;
+      }
+
+   /* OFF MENU DROPDOWM */
 
 /* OFF CABEÇALHO DO SITE */
