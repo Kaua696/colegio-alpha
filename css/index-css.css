@@ -24,7 +24,10 @@ body{
         color: #fff;
       }
       .topo-menu .info-menu p{
+        font-size: 11px;
+        margin-top: 1px;
         font-weight: bold;
+        text-transform: uppercase;
       }
       .topo-menu .info-menu a{
         color: #fff;
@@ -36,13 +39,19 @@ body{
       .topo-menu .info-menu span{
         margin-left: 8px;
       }
-      @media(max-width: 830px){
+      @media(max-width: 1000px){
         .topo-menu .info-menu{
             display: flex;
-            padding: 12px;
+            padding: 14px;
             margin-left: 6px;
             font-size: 11px;
             color: #fff;
+        }
+        .topo-menu .info-menu p{
+          font-size: 8px;
+          margin-top: 2.5px;
+          font-weight: bold;
+          text-transform: uppercase;
         }
       }
    /* INFORMAÇÕES DE AJUDA */
@@ -97,7 +106,8 @@ body{
         width: 100%;
         transition: 0.4s;
       }
-      .head-menu .navbar ul li:hover > ul {
+      .head-menu .navbar ul li:hover > ul,
+      .head-menu .navbar ul li:focus-within > ul {
         display: initial;
         animation: slide-down 0.5s ease-in-out;
       }
@@ -125,7 +135,7 @@ body{
       }
       
 
-      @media(max-width: 830px){
+      @media(max-width: 1000px){
         .head-menu{
           padding: 18px;
         }
