@@ -68,6 +68,10 @@ body{
           font-weight: bold;
           text-transform: uppercase;
         }
+        .topo-menu .info-menu span{
+          margin-left: 8px;
+          margin-top: 2px;
+        }
       }
    /* INFORMAÇÕES DE AJUDA */
     
@@ -143,6 +147,7 @@ body{
 
       #menu-bar{
         display: none;
+        border-radius: 100%;
       }
       .head-menu label{
         cursor: pointer;
