@@ -54,10 +54,10 @@ body{
           text-transform: uppercase;
         }
       }
-      @media(max-width: 750px){
+      @media(max-width: 800px){
         .topo-menu .info-menu{
             display: flex;
-            padding: 14px;
+            padding: 12px;
             margin-left: 6px;
             font-size: 8px;
             color: #fff;
@@ -69,7 +69,7 @@ body{
           text-transform: uppercase;
         }
         .topo-menu .info-menu img{
-          margin-left: 12px;
+          margin-left: 15px;
         }
         .topo-menu .info-menu span{
           margin-left: 5px;
