@@ -42,7 +42,7 @@ body{
       @media(max-width: 1000px){
         .topo-menu .info-menu{
             display: flex;
-            padding: 14px;
+            padding: 12px;
             margin-left: 6px;
             font-size: 11px;
             color: #fff;
@@ -59,11 +59,11 @@ body{
             display: flex;
             padding: 14px;
             margin-left: 6px;
-            font-size: 8px;
+            font-size: 9px;
             color: #fff;
         }
         .topo-menu .info-menu p{
-          font-size: 5px;
+          font-size: 9px;
           margin-top: 2.5px;
           font-weight: bold;
           text-transform: uppercase;
