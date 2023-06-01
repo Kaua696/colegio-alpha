@@ -54,6 +54,21 @@ body{
           text-transform: uppercase;
         }
       }
+      @media(max-width: 700px){
+        .topo-menu .info-menu{
+            display: flex;
+            padding: 14px;
+            margin-left: 6px;
+            font-size: 8px;
+            color: #fff;
+        }
+        .topo-menu .info-menu p{
+          font-size: 5px;
+          margin-top: 2.5px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
    /* INFORMAÇÕES DE AJUDA */
     
    /* MENU DROPDOWM */
@@ -178,6 +193,7 @@ body{
           }
         }
       }
+      
    /* OFF MENU DROPDOWM */
 
 /* OFF CABEÇALHO DO SITE */
