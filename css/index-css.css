@@ -70,10 +70,10 @@ body{
           text-transform: uppercase;
         }
         .topo-menu .info-menu img{
-          margin-left: 12px;
+          margin-left: 10px;
         }
         .topo-menu .info-menu span{
-          margin-left: 5px;
+          margin-left: 4px;
           margin-top: 2px;
         }
       }
@@ -228,7 +228,7 @@ body{
       font-weight: lighter;
       margin: 25px 0;
     }
-     @media(max-width: 720px){
+     @media(max-width: 800px){
       .banner .banner-text{
         margin: 180px;
         text-align: center;
