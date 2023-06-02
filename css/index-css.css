@@ -230,17 +230,15 @@ body{
     }
      @media(max-width: 800px){
       .banner .banner-text{
-        width: 100%;
         margin: 180px;
         text-align: center;
-        padding: 0 60px;
+        padding: 0 50px;
       }
       .banner .banner-text h1{
         font-size: 60px;
         margin-top: 60px;
         color: #ffffff;
         text-align: center;
-        white-space: nowrap;
       }
       .banner .banner-text p{
         font-size: 22px;
