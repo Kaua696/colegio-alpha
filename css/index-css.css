@@ -213,7 +213,7 @@ body{
     .banner .banner-text{
       margin: 225px;
       text-align: center;
-      padding: 0 90px;
+      padding: 0 1px;
     }
     .banner .banner-text h1{
       font-size: 95px;
@@ -223,16 +223,17 @@ body{
       white-space: nowrap;
     }
     .banner .banner-text p{
-      font-size: 20px;
+      font-size: 18px;
       color: #ffffffb7;
-      font-weight: lighter;
+      font-weight: 350;
+      text-transform: uppercase;
       margin: 25px 0;
     }
      @media(max-width: 800px){
       .banner .banner-text{
         margin: 180px;
         text-align: center;
-        padding: 0 5px;
+        padding: 0 1px;
       }
       .banner .banner-text h1{
         font-size: 60px;
@@ -241,7 +242,7 @@ body{
         text-align: center;
       }
       .banner .banner-text p{
-        font-size: 20px;
+        font-size: 18px;
         color: #ffffffb7;
         font-weight: 350;
         text-transform: uppercase;
