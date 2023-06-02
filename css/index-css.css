@@ -70,10 +70,10 @@ body{
           text-transform: uppercase;
         }
         .topo-menu .info-menu img{
-          margin-left: 10px;
+          margin-left: 12px;
         }
         .topo-menu .info-menu span{
-          margin-left: 4px;
+          margin-left: 5px;
           margin-top: 2px;
         }
       }
@@ -243,8 +243,8 @@ body{
       .banner .banner-text p{
         font-size: 22px;
         color: #ffffffb7;
-        font-weight: 300;
-        margin: 25px 0;
+        font-weight: 350;
+        margin: 20px 0;
       }
      }
   /* -------------------OFF BANNER------------------- */
