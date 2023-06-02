@@ -49,13 +49,13 @@ body{
           color: #fff;
         }
         .topo-menu .info-menu p{
-          font-size: 8px;
+          font-size: 9px;
           margin-top: 2.5px;
           font-weight: bold;
           text-transform: uppercase;
         }
       }
-      @media(max-width: 720px){
+      @media(max-width: 800px){
         .topo-menu .info-menu{
           display: flex;
           padding: 14px;
@@ -232,7 +232,7 @@ body{
       .banner .banner-text{
         margin: 180px;
         text-align: center;
-        padding: 0 20px;
+        padding: 0 5px;
       }
       .banner .banner-text h1{
         font-size: 60px;
