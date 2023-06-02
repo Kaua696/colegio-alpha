@@ -1,4 +1,5 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@600 & display = swap');
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,43 +10,43 @@
 body{
     height: 200vh;
 }
-/* CABEÇALHO DO SITE */
+/* -------------------CABEÇALHO DO SITE------------------- */
 
-   /* INFORMAÇÕES DE AJUDA */
-      .topo-menu{
-        width: 100%;
-        background:  #004aad;
-      }
-      .topo-menu .info-menu{
-        display: flex;
-        padding: 14px;
-        margin-left: 35px;
-        font-size: 12px;
-        color: #fff;
-      }
-      .topo-menu .info-menu p{
-        font-size: 11px;
-        margin-top: 1px;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-      .topo-menu .info-menu a{
-        color: #fff;
-        white-space: nowrap;
-      }
-      .topo-menu .info-menu img{
-        margin-left: 22px;
-      }
-      .topo-menu .info-menu span{
-        margin-left: 8px;
-      }
+  /* -------------------INFORMAÇÕES DE AJUDA------------------- */
+    .topo-menu{
+      width: 100%;
+      background:  #1e6ed6;
+    }
+    .topo-menu .info-menu{
+      display: flex;
+      padding: 14px;
+      margin-left: 35px;
+      font-size: 12px;
+      color: #fff;
+    }
+    .topo-menu .info-menu p{
+      font-size: 11px;
+      margin-top: 1px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .topo-menu .info-menu a{
+      color: #fff;
+      white-space: nowrap;
+    }
+    .topo-menu .info-menu img{
+      margin-left: 22px;
+    }
+    .topo-menu .info-menu span{
+      margin-left: 8px;
+    }
       @media(max-width: 1000px){
         .topo-menu .info-menu{
-            display: flex;
-            padding: 12px;
-            margin-left: 6px;
-            font-size: 11px;
-            color: #fff;
+          display: flex;
+          padding: 14px;
+          margin-left: 6px;
+          font-size: 11px;
+          color: #fff;
         }
         .topo-menu .info-menu p{
           font-size: 8px;
@@ -56,11 +57,11 @@ body{
       }
       @media(max-width: 800px){
         .topo-menu .info-menu{
-            display: flex;
-            padding: 12px;
-            margin-left: 6px;
-            font-size: 8px;
-            color: #fff;
+          display: flex;
+          padding: 14px;
+          margin-left: 6px;
+          font-size: 8px;
+          color: #fff;
         }
         .topo-menu .info-menu p{
           font-size: 9px;
@@ -76,78 +77,76 @@ body{
           margin-top: 3px;
         }
       }
-   /* INFORMAÇÕES DE AJUDA */
+  /* -------------------INFORMAÇÕES DE AJUDA------------------- */
     
-   /* MENU DROPDOWM */
-      .head-menu{
-        position: fixed;
-        left: 0; right: 0;
-        background: #fff;
-        box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
-        padding: 8px 6%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        z-index: 1000;
-        transition: top 0.2s;
-      }
-      .head-menu .logo{
-        width: 175px;
-      }
-      .head-menu .navbar ul{
-        list-style: none;
-      }
-      .head-menu .navbar ul li{
-        position: relative;
-        float: left;
-      }
-      .head-menu .navbar ul li a{
-        font-size: 16px;
-        text-transform: uppercase;
-        font-family: calibri;
-        padding: 20px 18px;
-        color: #000000;
-        display: block;
-        transition: 0.4s;
-      }
-      .head-menu .navbar ul li a:hover{
-        color: rgba(0, 0, 0, .5);
-      }
-      .head-menu .navbar ul li ul{
-        position: absolute;
-        left: 0;
-        width: 225px;
-        background: #fff;
-        color: #000000;
-        display: none;
-      }
-      .head-menu .navbar img{
-        margin-left: 4px;
-      }
-      .head-menu .navbar ul li ul li{
-        width: 100%;
-        transition: 0.4s;
-      }
-      .head-menu .navbar ul li:hover > ul,
-      .head-menu .navbar ul li:focus-within > ul {
-        display: initial;
-        animation: slide-down 0.5s ease-in-out;
-      }
-      .head-menu .navbar ul li ul li a:hover{
-        color: #0368ec;
-      }
-
+  /* -------------------MENU DROPDOWM------------------- */
+    .head-menu{
+      position: fixed;
+      left: 0; right: 0;
+      background: #fff;
+      box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
+      padding: 8px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+      transition: top 0.2s;
+    }
+    .head-menu .logo{
+      width: 175px;
+    }
+    .head-menu .navbar ul{
+      list-style: none;
+    }
+    .head-menu .navbar ul li{
+      position: relative;
+      float: left;
+    }
+    .head-menu .navbar ul li a{
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: calibri;
+      padding: 20px 18px;
+      color: #000000;
+      display: block;
+      transition: 0.4s;
+    }
+    .head-menu .navbar ul li a:hover{
+      color: rgba(0, 0, 0, .5);
+    }
+    .head-menu .navbar ul li ul{
+      position: absolute;
+      left: 0;
+      width: 225px;
+      background: #fff;
+      color: #000000;
+      display: none;
+    }
+    .head-menu .navbar img{
+      margin-left: 4px;
+    }
+    .head-menu .navbar ul li ul li{
+      width: 100%;
+      transition: 0.4s;
+    }
+    .head-menu .navbar ul li:hover > ul,
+    .head-menu .navbar ul li:focus-within > ul {
+      display: initial;
+      animation: slide-down 0.5s ease-in-out;
+    }
+    .head-menu .navbar ul li ul li a:hover{
+      color: #0368ec;
+    }
       @keyframes slide-down {
-        0% {
+        0%{
           transform: translateY(-10px);
           opacity: 0;
         }
-        100% {
+        100%{
           transform: translateY(0);
           opacity: 1;
         }
       }
-
       #menu-bar{
         display: none;
         border-radius: 100%;
@@ -155,9 +154,7 @@ body{
       .head-menu label{
         cursor: pointer;
         display: none;
-      }
-      
-
+      }      
       @media(max-width: 1000px){
         .head-menu{
           padding: 18px;
@@ -200,8 +197,57 @@ body{
             opacity: 1;
           }
         }
-      }
-      
-   /* OFF MENU DROPDOWM */
+      }      
+  /* -------------------OFF MENU DROPDOWM------------------- */
 
-/* OFF CABEÇALHO DO SITE */
+  /* -------------------BANNER------------------- */
+    header{
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .banner{
+      display: flex;
+      justify-content: center;
+    }
+    .banner .banner-text{
+      margin: 225px;
+      text-align: center;
+      padding: 0 90px;
+    }
+    .banner .banner-text h1{
+      font-size: 95px;
+      margin-top: 40px;
+      color: #ffffff;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .banner .banner-text p{
+      font-size: 20px;
+      color: #ffffffb7;
+      font-weight: lighter;
+      margin: 25px 0;
+    }
+     @media(max-width: 800px){
+      .banner .banner-text{
+        margin: 180px;
+        text-align: center;
+        padding: 0 60px;
+      }
+      .banner .banner-text h1{
+        font-size: 60px;
+        margin-top: 60px;
+        color: #ffffff;
+        text-align: center;
+        white-space: nowrap;
+      }
+      .banner .banner-text p{
+        font-size: 20px;
+        color: #ffffffb7;
+        font-weight: lighter;
+        margin: 25px 0;
+      }
+     }
+  /* -------------------OFF BANNER------------------- */
+
+/* -------------------OFF CABEÇALHO DO SITE------------------- */
