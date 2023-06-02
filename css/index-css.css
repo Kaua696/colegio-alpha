@@ -60,11 +60,11 @@ body{
           display: flex;
           padding: 14px;
           margin-left: 6px;
-          font-size: 10px;
+          font-size: 9px;
           color: #fff;
         }
         .topo-menu .info-menu p{
-          font-size: 10px;
+          font-size: 9px;
           margin-top: 2.8px;
           font-weight: bold;
           text-transform: uppercase;
