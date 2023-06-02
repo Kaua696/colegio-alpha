@@ -229,6 +229,9 @@ body{
       margin: 25px 0;
     }
      @media(max-width: 800px){
+      header{
+        width: 100%;
+      }
       .banner .banner-text{
         margin: 180px;
         text-align: center;
@@ -242,7 +245,7 @@ body{
         white-space: nowrap;
       }
       .banner .banner-text p{
-        font-size: 20px;
+        font-size: 22px;
         color: #ffffffb7;
         font-weight: lighter;
         margin: 25px 0;
