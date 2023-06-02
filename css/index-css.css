@@ -241,10 +241,10 @@ body{
         text-align: center;
       }
       .banner .banner-text p{
-        font-size: 22px;
+        font-size: 20px;
         color: #ffffffb7;
-        font-weight: 400;
-        font-family: 'Glacial Indifference', sans-serif;
+        font-weight: 350;
+        text-transform: uppercase;
         margin: 12px 0;
       }
      }
