@@ -274,13 +274,16 @@
   }
     @media(max-width: 720px){
       .noticias .name-noticias .name-traco{
-        margin-left: 30%;
+        margin-left: 35%;
       }
-    }
-    @media(max-width: 720px){
       .org{
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 40px;
+      }
+    }
+    @media(max-width: 1000px){
+      .noticias .name-noticias .name-traco{
+        margin-left: 40.5%;
       }
     }
   .org{
