@@ -257,7 +257,7 @@
 /* -------------------ULTIMAS NOTICIAS------------------- */
   .noticias{
     width: 100%;
-    padding: 6rem 0rem 5rem 0rem;
+    padding: 4.5rem 0rem 5rem 0rem;
     text-align: center;
     justify-content: center;
   }
@@ -286,11 +286,12 @@
   .org{
     display: flex;
     justify-content: center;
+    margin-top: 4rem;
   }
   .container-noticias{
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
     padding: 2rem;
   }
   .card-noticia{
@@ -391,6 +392,7 @@
   footer{
     width: 100%;
     color: #ffffff;
+    margin-top: -25px;
   }
   #footer-content{
     background: #1e6ed6;
