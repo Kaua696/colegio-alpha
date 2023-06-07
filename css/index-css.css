@@ -291,7 +291,7 @@
     }
     .text-1 .faca-mais-text{
     width:70%;
-    margin-left: 80px;
+    margin-left: 50px;
     padding: 30px 0px;
     }
     .text-1 .faca-mais-text h3{
@@ -303,7 +303,7 @@
       font-size: 16px;
      }
      .text-1 .faca-mais-img img{
-      margin-left: 80px;
+      margin-left: 50px;
      }
  }
 /* ------------------- OFF TEXTO 1 ------------------- */
@@ -344,7 +344,7 @@
   }
     @media(max-width:800px){
       .noticias .name-noticias .name-traco{
-        margin-left: 25%;
+        margin-left: 25.4%;
       }
       .org{
         flex-direction: column;
