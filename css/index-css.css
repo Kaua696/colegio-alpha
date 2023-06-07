@@ -254,6 +254,75 @@
 
 /* -------------------OFF CABEÇALHO DO SITE------------------- */
 
+
+/* ------------------- TEXTO 1------------------- */
+ .text-1 .container-text-1{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 5rem;
+ }
+ .text-1 .faca-mais-text{
+  width: 60%;
+  margin-left: 7rem;
+  padding: 0 50px;
+ }
+ .text-1 .faca-mais-text h3{
+  font-size: 50px;
+  color: #013f8f;
+ }
+ .text-1 .faca-mais-text p{
+  margin: 10px 0 10px 5px;
+  font-size: 18px;
+  color: #727070;
+ }
+ .text-1 .faca-mais-img{
+  width: 45%;
+ }
+ .text-1 .faca-mais-img img{
+  margin-left: 2rem;
+ }
+  @media(max-width: 720px) {
+   .text-1 .container-text-1{
+    display: block;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+    }
+    .text-1 .faca-mais-text{
+    width:70%;
+    margin-left: 80px;
+    padding: 30px 0px;
+    }
+    .text-1 .faca-mais-text h3{
+      font-size: 30px;
+      color: #013f8f;
+     }
+     .text-1 .faca-mais-text p{
+      margin: 10px 0 0px 5px;
+      font-size: 16px;
+     }
+     .text-1 .faca-mais-img img{
+      margin-left: 80px;
+     }
+ }
+/* ------------------- OFF TEXTO 1------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------ULTIMAS NOTICIAS------------------- */
   .noticias{
     width: 100%;
