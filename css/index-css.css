@@ -447,7 +447,10 @@
   }
   #footer-copyright{
     display: block;
+    width: 100%;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     background: #1e6ed6;
     font-size: 0.9rem;
     padding: 1rem;
@@ -455,14 +458,12 @@
   }
   #footer-copyright img{
     width: 120px;
-    margin-left: 36rem;
   }
   #footer-copyright p{
     font-size: 10px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    margin-right: 3rem;
   }
   #footer-copyright #dev{
     margin-top: 1rem;
@@ -472,15 +473,8 @@
       grid-template-columns: repeat(1,1fr);
       gap: 3.5rem;
     }
-    .footer-list #list-margin{
-      margin-top: 2rem;
-    }
     #footer-copyright img{
       width: 120px;
-      margin-left: 8rem;
-    }
-    #footer-copyright p{
-      margin-left: 2.5rem;
     }
   }
 /* -------------------OFF RODAPÉ DO SITE------------------- */
