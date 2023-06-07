@@ -272,9 +272,9 @@
     border: 2px solid #1e6ed6;
     margin-bottom: 20px;
   }
-    @media(max-width: 720px){
+    @media(max-width:800px){
       .noticias .name-noticias .name-traco{
-        margin-left: 25%;
+        margin-left: 27%;
       }
       .org{
         flex-direction: column;
@@ -282,11 +282,6 @@
       }
       .date{
         margin-left: 100px;
-      }
-    }
-    @media(max-width: 1000px){
-      .noticias .name-noticias .name-traco{
-        margin-left: 40.5%;
       }
     }
   .org{
