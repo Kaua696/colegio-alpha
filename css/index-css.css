@@ -361,9 +361,31 @@
  }
 /* ------------------- OFF TEXTO 2 ------------------- */
 
-
-
-
+/* -------------------PROPOSTA PEDAGÓGICA------------------- */
+  .slide-container{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 6rem 0rem 5rem 0rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../image/background/backgroung-banner.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container-text{
+    font-size: 25px;
+    color: #fff;
+  }
+  .slide-traco{
+    margin-left: 41%;
+    margin-top: 0.5rem;
+    width: 15rem;
+    border: 2px solid #d6d3d3;
+    margin-bottom: 20px;
+  }
+/* -------------------OFF PROPOSTA PEDAGÓGICA------------------- */
 
 
 
@@ -377,7 +399,8 @@
 /* -------------------ULTIMAS NOTICIAS------------------- */
   .noticias{
     width: 100%;
-    padding: 4.5rem 0rem 5rem 0rem;
+    margin-top: 1rem;
+    padding: 6rem 0rem 5rem 0rem;
     text-align: center;
     align-items: center;
     justify-content: center;
