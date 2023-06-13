@@ -417,7 +417,6 @@
     bottom: 0;
     width: 100%;
     padding: 10px;
-    box-shadow: 10em yellow;
     background-color: rgba(46, 45, 45, 0.7);
     color: #fff;
     transform: translateY(55%);
@@ -712,9 +711,36 @@
     #footer-content{
       grid-template-columns: repeat(1,1fr);
       gap: 3.5rem;
+      text-align: center;
+    }
+    #footer-contacts{
+      font-size: 20px;
     }
     #footer-copyright img{
       width: 120px;
+    }
+    #instagram{
+      background: #ffffff;
+      padding: 8px 9px;
+      border-radius: 50%;
+      transition: 0.4s ease-in-out;
+    }
+    #instagram img{
+      width: 38px;
+    }
+    #footer-social-midia .footer-link{
+      height: 3.5rem;
+      width: 3.5rem;
+    }
+    #footer-social-midia{
+      justify-content: center;
+    }
+    .footer-link{
+      padding: 10px;
+      font-size: 20px;
+    }
+    .footer-list li h3{
+      font-size: 25px;
     }
   }
 /* -------------------OFF RODAPÉ DO SITE------------------- */
