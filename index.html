@@ -16,7 +16,9 @@
    <!-- --------------Fontawesome Link for Icons-------------- -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-   <script src="js/swiper.js" defer></script>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+   <script src="js/script.js" defer></script>
 
 </head>
 
@@ -122,53 +124,53 @@
                </div>
 
             <div class="container-card-slide">
+
                <div class="wrapper">
                   <i id="left" class="fa-solid fa-angle-left"></i>
                   <ul class="carousel">
+                    <li class="card">
+                     <img src="image/aluno/aluno-texto1.jpg" alt="Imagem" draggable="false">
+                     <div class="content">
+                        <h2>ensino infantil</h2>
+                        <p class="description"><a href="#" class="btn">Sobre mais></a></p>
+                     </div>
+                    </li>
 
-                     <li class="card">
-                        <img src="image/aluno/aluno-texto1.jpg" alt="Imagem">
-                           <div class="content">
-                              <h2>ensino infantil</h2>
-                              <p class="description"><a href="#" class="btn">Sobre mais></a></p>
-                           </div>
-                     </li>
+                    <li class="card">
+                     <img src="image/aluno/aluno-texto1.jpg" alt="Imagem" draggable="false">
+                     <div class="content">
+                        <h2>ensino fundamental i</h2>
+                        <p class="description"><a href="#" class="btn">Sobre mais></a></p>
+                     </div>
+                    </li>
 
-                     <li class="card">
-                        <img src="image/aluno/aluno-texto1.jpg" alt="Imagem">
-                           <div class="content">
-                              <h2>ensino fundamental i</h2>
-                              <p class="description"><a href="#" class="btn">Sobre mais></a></p>
-                           </div>
-                     </li>
+                    <li class="card">
+                     <img src="image/aluno/aluno-texto1.jpg" alt="Imagem" draggable="false">
+                     <div class="content">
+                        <h2>ensino fundamental ii</h2>
+                        <p class="description"><a href="#" class="btn">Sobre mais></a></p>
+                     </div>
+                    </li>
 
-                     <li class="card">
-                        <img src="image/aluno/aluno-texto1.jpg" alt="Imagem">
-                           <div class="content">
-                              <h2>ensino fundamental ii</h2>
-                              <p class="description"><a href="#" class="btn">Sobre mais></a></p>
-                           </div>
-                     </li>
-
-                     <li class="card">
-                        <img src="image/aluno/aluno-texto1.jpg" alt="Imagem">
+                    <li class="card">
+                     <img src="image/aluno/aluno-texto1.jpg" alt="Imagem" draggable="false">
                            <div class="content">
                               <h2>ensino médio</h2>
                               <p class="description"><a href="#" class="btn">Sobre mais></a></p>
                            </div>
-                     </li>
+                    </li>
 
-                     <li class="card">
-                        <img src="image/aluno/aluno-texto1.jpg" alt="Imagem">
-                           <div class="content">
-                              <h2>atividades extra-curricular</h2>
-                              <p class="description"><a href="#" class="btn">Sobre mais></a></p>
-                           </div>
-                     </li>
+                    <li class="card">
+                     <img src="image/aluno/aluno-texto1.jpg" alt="Imagem" draggable="false">
+                     <div class="content">
+                        <h2>extracurricular</h2>
+                        <p class="description"><a href="#" class="btn">Sobre mais></a></p>
+                     </div>
+                    </li>
 
                   </ul>
-                  <i id="left" class="fa-solid fa-angle-right"></i>
-               </div>
+                  <i id="right" class="fa-solid fa-angle-right"></i>
+                </div>
 
             </div>
             </section>
@@ -280,8 +282,30 @@
    <!-- OFF RODAPÉ DO SITE -->
 </body>
 
-   <!-- JAVASCRIPT -->
-   <script src="js/script.js"></script>
+
+
+   <!-- COOKIES JS -->
+   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+   <script>
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#f5f5f5",
+            "text": "#000000"
+          },
+          "button": {
+            "background": "#0001ff",
+            "text": "#ffffff"
+          }
+        },
+        "content": {
+          "message": "Este site usa cookies para garantir que você obtenha a melhor experiência de navegação. Desativar os cookies do site pode prejudicar a funcionalidade de alguns recursos.",
+          "dismiss": "Concordar e fechar",
+          "link": "Ler mais",
+          "href": "https://www.cssscript.com/privacy-policy/"
+        }
+      });
+      </script>
 
 
 </html>
