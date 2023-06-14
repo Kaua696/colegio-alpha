@@ -256,16 +256,20 @@
 
 
 /* ------------------- TEXTO 1------------------- */
+ .text-1{
+  width: 100%;
+ }
  .text-1 .container-text-1{
   display: flex;
   align-items: center;
+  text-align: center;
   position: relative;
   margin-top: 5rem;
  }
  .text-1 .faca-mais-text{
-  width: 60%;
-  margin-left: 10.5rem;
-  padding: 0 50px;
+  width: 50%;
+  padding: 0 30px;
+  margin-left: 10rem;
  }
  .text-1 .faca-mais-text h3{
   font-size: 50px;
@@ -281,7 +285,7 @@
  }
  .text-1 .faca-mais-img img{
   user-select: none;
-  margin-left: 2rem;
+  margin-right: 5rem;
  }
   @media(max-width: 720px) {
    .text-1 .container-text-1{
@@ -292,7 +296,6 @@
     }
     .text-1 .faca-mais-text{
     width:70%;
-    margin-left: -40px;
     padding: 30px 0px;
     }
     .text-1 .faca-mais-text h3{
@@ -314,10 +317,11 @@
   display: flex;
   align-items: center;
   position: relative;
+  text-align: center;
   margin-top: 5rem;
  }
  .text-2 .faca-mais-text-2{
-  width: 45%;
+  width: 42%;
   padding: 0 35px;
  }
  .text-2 .faca-mais-text-2 h3{
@@ -331,7 +335,7 @@
  }
  .text-2 .faca-mais-img-2{
   width: 30%;
-  margin-left: 10.5rem;
+  margin-left: 10rem;
  }
  .text-2 .faca-mais-img-2 img{
   user-select: none;
@@ -381,7 +385,8 @@
     color: #fff;
   }
   .slide-traco{
-    margin-left: 41%;
+    position: relative;
+    left: 42%;
     margin-top: 0.5rem;
     width: 15rem;
     border: 2px solid #d6d3d3;
@@ -393,8 +398,7 @@
       color: #fff;
     }
     .slide-traco{
-      margin-left: 25%;
-      width: 12rem;
+      left: 25%;
     }
   }
   .container-card-slide{
