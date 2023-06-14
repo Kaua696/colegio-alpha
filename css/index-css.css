@@ -237,7 +237,7 @@
         padding: 0 1px;
       }
       .banner .banner-text h1{
-        font-size: 55px;
+        font-size: 50px;
         margin-top: 80px;
         color: #ffffff;
         text-align: center;
@@ -358,7 +358,7 @@
       font-size: 16px;
      }
      .text-2 .faca-mais-img-2 img{
-      margin-left: -100px;
+      margin-left: -180px;
      }
  }
 /* ------------------- OFF TEXTO 2 ------------------- */
@@ -387,7 +387,7 @@
     border: 2px solid #d6d3d3;
     margin-bottom: 20px;
   }
-  @media(max-width: 720px){
+  @media(max-width: 800px){
     .background-text{
       font-size: 22px;
       color: #fff;
