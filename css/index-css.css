@@ -71,7 +71,7 @@
         }
         .topo-menu .info-menu span{
           margin-left: 5px;
-          margin-top: 3.45px;
+          margin-top: 2.6px;
         }
       }
       @media(max-width: 400px){
@@ -81,7 +81,7 @@
           font-size: 9px;
         }
         .topo-menu .info-menu p{
-          font-size: 10px;
+          font-size: 9px;
           margin-top: 2.8px;
         }
         .topo-menu .info-menu img{
