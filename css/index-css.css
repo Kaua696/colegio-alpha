@@ -59,11 +59,11 @@
       @media(max-width: 600px){
         .topo-menu .info-menu{
           padding: 14px;
-          margin-left: 4px;
-          font-size: 8px;
+          margin-left: 8px;
+          font-size: 9px;
         }
         .topo-menu .info-menu p{
-          font-size: 9px;
+          font-size: 10px;
           margin-top: 2.8px;
         }
         .topo-menu .info-menu img{
@@ -81,14 +81,14 @@
           font-size: 9px;
         }
         .topo-menu .info-menu p{
-          font-size: 9px;
+          font-size: 10px;
           margin-top: 2.8px;
         }
         .topo-menu .info-menu img{
           margin-left: 12px;
         }
         .topo-menu .info-menu span{
-          margin-left: 5px;
+          margin-left: 6px;
           margin-top: 3.4px;
         }
       }
@@ -96,7 +96,7 @@
         .topo-menu .info-menu{
           padding: 14px;
           margin-left: 4px;
-          font-size: 7px;
+          font-size: 7.6px;
         }
         .topo-menu .info-menu p{
           font-size: 8px;
@@ -107,7 +107,7 @@
         }
         .topo-menu .info-menu span{
           margin-left: 5px;
-          margin-top: 3.8px;
+          margin-top: 3.3px;
         }
       }
   /* -------------------INFORMAÇÕES DE AJUDA------------------- */
