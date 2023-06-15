@@ -545,15 +545,49 @@
     border: 2px solid #d6d3d3;
     margin-bottom: 20px;
   }
-  @media(max-width: 800px){
+  @media(max-width: 600px){
     .background-text{
-      font-size: 22px;
-      color: #fff;
+      font-size: 20px;
     }
     .slide-traco{
-      left: 0%;
+      left: 30%;
+      margin-top: 0.5rem;
+      width: 10rem;
+      border: 2px solid #d6d3d3;
+      margin-bottom: -12rem;
     }
   }
+  @media(max-width: 400px){
+    .background-text{
+      font-size: 18px;
+    }
+    .slide-traco{
+      left: 28%;
+      margin-top: 0.5rem;
+      width: 10rem;
+      border: 2px solid #d6d3d3;
+      margin-bottom: -12rem;
+    }
+  }
+  @media(max-width: 350px){
+    .slide-background{
+      margin-top: 5rem;
+      padding: 4rem 0rem 2rem 0rem;
+    }
+    .background-text{
+      font-size: 16px;
+    }
+    .slide-traco{
+      left: 25.5%;
+      margin-top: 0.5rem;
+      width: 10rem;
+      border: 1.5px solid #d6d3d3;
+      margin-bottom: -12rem;      
+    }
+  }
+
+
+
   .container-card-slide{
     margin-top: -5rem;
     margin-bottom: -3rem;
